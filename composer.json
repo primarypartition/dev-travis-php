@@ -1,0 +1,15 @@
+{
+    "name": "primarypartition/DevTravisPHP",
+    "description": "Dev Travis PHP Project",
+    "type": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Imran",
+            "email": "info@itsali.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
