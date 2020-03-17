@@ -1,0 +1,22 @@
+{
+    "name": "primarypartition/dev-travis-php",
+    "description": "Dev Travis PHP Project",
+    "type": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Imran",
+            "email": "info@itsali.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "phpunit/phpunit": "8.5.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"devproject\\": "src/"
+    	}
+    }
+}
